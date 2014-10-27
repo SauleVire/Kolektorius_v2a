@@ -1,0 +1,17 @@
+# C:/Darbas/GitHub/Kolektorius_v2/v.2/kolektorius_v2.brd
+SET PAD_NAMES OFF;
+seT PALETTE WHITE;
+SET PALETTE 1 0x8FC3CEFF; # 16 hellblau
+SET PALETTE 2 0x4F004000; # 17 hellgruen
+SET PALETTE 2 0x4F004000; # 18 hellgruen
+DISPLAY -19;
+SET PALETTE 15 0xFFDEDEDE; # 20 dunkelgrau
+SET PALETTE 7 0xFF000000; # 22 schwarz
+DISPLAY -24;
+SET PALETTE 7 0xFF000000; # 26 schwarz
+SET PALETTE 7 0xFF000000; # 28 schwarz
+ WIN;
+PRINT ;
+SCRIPT 'C:/Darbas/GitHub/Kolektorius_v2/v.2/kolektorius_v2~restore-palette.scr'
+DISPLAY 19;
+DISPLAY 24;
